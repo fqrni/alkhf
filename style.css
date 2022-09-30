@@ -1,0 +1,25 @@
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8ee;
+}
+
+.container{
+      display: flex;
+      flex-direction: column;
+}
+.swiper {
+      width: 600px;
+      height: 300px;
+    }
+    .swiper-slide .img{
+      min-width: 80%;
+      min-height: 80%;
+    }
+    #quranpage{
+      width: 500px;
+      height: 500px;
+    }
+
+    
