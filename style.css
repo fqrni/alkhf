@@ -1,3 +1,4 @@
+
 *{
       box-sizing: border-box;
       margin: 0;
@@ -22,4 +23,68 @@
       height: 500px;
     }
 
-    
+
+@font-face {
+  font-family: uthmani;
+  src: url(UthmanicHafs_V20.ttf);
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(UthmanicHafs_V20.ttf) format('woff2');
+  font-display: swap;
+}
+
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8ee;
+      font-family: uthmani;
+
+}
+::selection {
+  background: #4D463F;
+  color: #fff;
+}
+
+.container{
+      display: flex;
+      flex-direction: column;
+}
+
+
+    .intro{
+      height: 485px;
+      width: 295px;
+      font-family: uthmani;
+      color: #4D463F;
+      
+
+    }
+    .intro h1{
+      color: #4D463F;
+    top: 0;
+    text-align: center;
+    margin: 1rem;
+    }
+    p{
+      font-size: 1.625rem;
+    }
+
+    span{
+      display: block;
+      color: #4D463F;
+      padding: 1.25rem;
+      border-bottom: 0.5px solid #4D463F;
+      font-size: 1.025rem;
+
+    }
+    #small{
+      font-size: 1.025rem;
+
+    }
+    .icons{
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .icons a{
+      margin: 0 1rem;
+    }
